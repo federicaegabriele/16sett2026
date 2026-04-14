@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrimonio di Federica e Gabriele - 16 Settembre 2026</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta
+      name="format-detection"
+      content="telephone=no, date=no, address=no, email=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital@0;1&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="./style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="title-wrapper" data-aos="zoom-in">
+        <h1 class="hero-title">Federica e Gabriele</h1>
+        <div class="img-orario"></div>
+      </div>
+      <div class="countdown-container">
+        <div class="flip-card" id="giorni">
+          <div class="flip-card-inner">
+            <span class="count">00</span>
+          </div>
+          <p>Giorni</p>
+        </div>
+        <div class="flip-card" id="ore">
+          <div class="flip-card-inner">
+            <span class="count">00</span>
+          </div>
+          <p>Ore</p>
+        </div>
+        <div class="flip-card" id="minuti">
+          <div class="flip-card-inner">
+            <span class="count">00</span>
+          </div>
+          <p>Minuti</p>
+        </div>
+        <div class="flip-card" id="secondi">
+          <div class="flip-card-inner">
+            <span class="count">00</span>
+          </div>
+          <p>Secondi</p>
+        </div>
+      </div>
+
+      <a href="#rsvp" class="btn btn-primary">Conferma Presenza</a>
+    </header>
+
+    <section id="location" data-aos="fade-up">
+      <div class="location-wrapper">
+        <h2 class="cursive">Dove e Quando</h2>
+
+        <div class="elements-container">
+          <div class="card element-1">
+            <h3>
+              <div class="emoji church"></div>
+              La Cerimonia
+            </h3>
+            <p class="location-text">
+              <b class="cinzel">H. 11:00</b>
+              <b class="cinzel">Chiesa San Fermo</b>
+              <span class="testo-elegante"
+                >Piazza San Fermo 20847 - Albiate (MB)</span
+              >
+            </p>
+            <a
+              href="https://maps.app.goo.gl/wtSoCjUa95deK2EU7"
+              class="btn btn-secondary"
+              target="_blank"
+            >
+              <div class="emoji location-svg"></div>
+              Portami in Chiesa</a
+            >
+          </div>
+
+          <div class="card element-3">
+            <h3>
+              <div class="emoji residence"></div>
+              Il Ricevimento
+            </h3>
+            <p class="location-text">
+              <b class="cinzel">H. 13:00</b>
+              <b class="cinzel">Villa Mattioli</b>
+              <span class="testo-elegante"
+                >Via Rapazzini 2 - 20855 Lesmo (MB)</span
+              >
+            </p>
+            <a
+              href="https://maps.app.goo.gl/U65RBvTpHDVgWyKZA"
+              class="btn btn-secondary"
+              target="_blank"
+              ><div class="emoji location-svg"></div>
+              Portami alla Festa
+            </a>
+          </div>
+        </div>
+        <a onclick="addToCalendar()" class="btn btn-primary add-to-calendar">
+          <div class="emoji agenda"></div>
+          Aggiungi al Calendario
+        </a>
+      </div>
+    </section>
+
+    <section id="program">
+      <div class="program-wrapper">
+        <div class="card">
+          <h2 class="cursive">Timeline</h2>
+          <div class="program-container">
+            <div class="program-row">
+              <div class="hour">11:00</div>
+              <div class="emoji church"></div>
+              <div class="title">Cerimonia</div>
+            </div>
+            <div class="program-row">
+              <div class="hour">13:00</div>
+              <div class="emoji aperitivo"></div>
+              <div class="title">Aperitivo</div>
+            </div>
+            <div class="program-row">
+              <div class="hour">14:00</div>
+              <div class="emoji restaurant"></div>
+              <div class="title">Pranzo</div>
+            </div>
+            <div class="program-row">
+              <div class="hour">18:00</div>
+              <div class="emoji cake"></div>
+              <div class="title">Taglio torta</div>
+            </div>
+            <div class="program-row">
+              <div class="hour">19:30</div>
+              <div class="emoji party"></div>
+              <div class="title">Festeggiamenti e danze</div>
+            </div>
+            <div class="program-row">
+              <div class="hour">23:00</div>
+              <div class="emoji night"></div>
+              <div class="title">Saluti</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" data-aos="fade-up">
+      <div class="gallery-wrapper">
+        <h2 class="cursive">Moments are for life<br />Enjoy!</h2>
+        <h4 class="cinzel">
+          CONDIVIDERE CON VOI QUESTO GIORNO È IL DONO PIÙ PREZIOSO...
+        </h4>
+        <p>Caricate i vostri scatti clicando sul tasto qui sotto</p>
+        <a
+          href="https://photos.app.goo.gl/R9KkzDgxyXZuEkNL6"
+          target="_blank"
+          class="btn btn-secondary"
+          ><div class="emoji">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"
+              />
+            </svg>
+          </div>
+          Carica foto
+        </a>
+        <div class="photo-grid">
+          <img src="./img/41.jpeg" alt="Sposi 1" />
+          <img src="./img/5.jpeg" alt="Sposi 2" />
+          <img src="./img/6.jpeg" alt="Sposi 2" />
+        </div>
+      </div>
+      <div class="regalo-wrapper">
+        <p class="cinzel">
+          ...IL RESTO, SE VOLETE, DIVENTERÀ PARTE DEL NOSTRO VIAGGIO
+        </p>
+
+        <div class="iban-box">
+          <h3>IBAN</h3>
+          <div class="iban-wrapper">
+            <p id="iban-text" class="iban-text">
+              IT 47 K 03069 32730 100000017424
+            </p>
+            <button onclick="copyIban()" id="copy-btn" class="copy-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184"
+                />
+              </svg>
+            </button>
+          </div>
+          <p>
+            <small>
+              Intestato a:<br />
+              Gabriele Vergani
+            </small>
+          </p>
+          <p><strong>Causale:</strong> Regalo Matrimonio Federica e Gabriele</p>
+          <div class="dropdown" onclick="toggleDorpdown()">
+            <div class="dropdown-title">
+              <span>Dettagli</span>
+              <div class="arrow arrow-up hide"></div>
+              <div class="arrow arrow-down show"></div>
+            </div>
+            <div class="dropdown-section-down hide">
+              <p>Banca: INTESA SAN PAOLO</p>
+              <p>Filiale: CARATE BRIANZA (MB)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimoni" data-aos="fade-up">
+      <div class="testimoni-wrapper">
+        <div class="card">
+          <h2 class="cursive">I Testimoni</h2>
+          <p>
+            Per qualsiasi dubbio o emergenza durante il giorno del matrimonio,
+            contattata:
+          </p>
+          <div class="testimoni-container">
+            <ul class="contact-list">
+              <li>
+                <strong
+                  >Francesca
+                  <div class="svg damigella-sposa"></div
+                ></strong>
+                <a href="tel:+39987654321">
+                  <div class="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  +39 334 108 4704</a
+                >
+              </li>
+              <li>
+                <strong
+                  >Gabriele
+                  <div class="svg damigella-sposa"></div
+                ></strong>
+                <a href="tel:+39987654321">
+                  <div class="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  +39 334 110 2532</a
+                >
+              </li>
+              <li>
+                <strong
+                  >Alessandro
+                  <div class="svg damigella-sposa"></div
+                ></strong>
+                <a href="tel:+39987654321"
+                  ><div class="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  +39 342 134 9476</a
+                >
+              </li>
+              <li>
+                <strong
+                  >Marta
+                  <div class="svg testimone-sposo"></div
+                ></strong>
+                <a href="tel:+393394964380">
+                  <div class="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  +39 339 496 4380</a
+                >
+              </li>
+              <li>
+                <strong
+                  >Matteo
+                  <div class="svg testimone-sposo"></div
+                ></strong>
+                <a href="tel:+393387699558"
+                  ><div class="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  +39 338 769 9558</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" data-aos="zoom-in">
+      <div class="rsvp-wrapper">
+        <h2 class="cursive">RSVP</h2>
+        <p>Ti preghiamo di confermare la tua presenza entro il 15 Luglio.</p>
+        <form id="rsvp-form">
+          <label>Nome e Cognome</label>
+          <input
+            type="text"
+            name="Nome"
+            placeholder="Inserisci il tuo nome completo"
+            required
+          />
+          <label>Email</label>
+          <input
+            type="text"
+            name="Email"
+            placeholder="email@esempio.it"
+            required
+          />
+
+          <label>Sarai dei nostri?</label>
+          <select id="presenza" name="Presenza" required>
+            <option value="si">Certo!</option>
+            <option value="no">Mi spiace, purtroppo non posso esserci</option>
+          </select>
+
+          <div class="people-wrapper">
+            <div class="how-much-people">
+              <span><strong>Adulti</strong></span>
+              <div class="buttons-container">
+                <button
+                  type="button"
+                  onclick="changeCount('adulti', -1)"
+                  class="btn-qty"
+                >
+                  -
+                </button>
+                <span class="number" id="count-adulti">1</span>
+                <button
+                  type="button"
+                  onclick="changeCount('adulti', 1)"
+                  class="btn-qty"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <div class="how-much-people">
+              <span
+                ><strong
+                  >Bambini <br /><span style="font-size: 12px"
+                    >(0-3 anni)</span
+                  ></strong
+                ></span
+              >
+              <div class="buttons-container">
+                <button
+                  type="button"
+                  onclick="changeCount('bambini', -1)"
+                  class="btn-qty"
+                >
+                  -
+                </button>
+                <span class="number" id="count-bambini">0</span>
+                <button
+                  type="button"
+                  onclick="changeCount('bambini', 1)"
+                  class="btn-qty"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <div class="how-much-people">
+              <span
+                ><strong
+                  >Ragazzi<br /><span style="font-size: 12px"
+                    >(3-9 anni)</span
+                  ></strong
+                ></span
+              >
+              <div class="buttons-container">
+                <button
+                  type="button"
+                  onclick="changeCount('ragazzi', -1)"
+                  class="btn-qty"
+                >
+                  -
+                </button>
+                <span class="number" id="count-ragazzi">0</span>
+                <button
+                  type="button"
+                  onclick="changeCount('ragazzi', 1)"
+                  class="btn-qty"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div id="nomi-container">
+            <label>Adulto</label>
+            <input
+              type="text"
+              name="nome_adulto_1"
+              id="nome_adulto_1"
+              placeholder="Nome e Cognome"
+              required
+            />
+            <label>Allergie, intolleranze o eslusioni: </label>
+            <textarea
+              name="Dieta_adulto_1"
+              rows="3"
+              placeholder="Es. Regime alimentare (Vegetariano, Vegano, Pescitariano, .. ), esclusioni, esigenze particolari, alcolici"
+            ></textarea>
+          </div>
+
+          <input
+            type="hidden"
+            name="totale_adulti"
+            id="hidden-adulti"
+            value="1"
+          />
+          <input
+            type="hidden"
+            name="totale_bambini"
+            id="hidden-bambini"
+            value="0"
+          />
+          <input
+            type="hidden"
+            name="totale_ragazzi"
+            id="hidden-ragazzi"
+            value="0"
+          />
+
+          <button type="submit" id="submit-rsvp" class="btn btn-invia-risposta">
+            Invia Risposta
+          </button>
+          <a
+            onclick="coglione()"
+            class="btn btn-too-late"
+            style="display: none"
+          >
+            Invia Risposta
+          </a>
+        </form>
+        <div id="msg-conferma" style="display: none" class="card">
+          ✅ Grazie! Risposta registrata.
+        </div>
+      </div>
+    </section>
+
+    <section id="too-late" style="display: none">
+      <div class="too-late-wrapper">
+        <h2>
+          Troppo tardi. Cosa non era chiaro di "Ti preghiamo di confermare la
+          tua presenza entro il 15 Luglio."?<br />
+          Meriteresti di non essere invitato, ma faresti bene a contattarci.
+          <br />Potremmo essere indulgenti...
+        </h2>
+        <a class="btn btn-primary" href="tel:+393331286151">Chiama qui</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Federica e Gabriele</p>
+      <p>SETT 16 2026</p>
+      <div class="img-logo"></div>
+      <p>
+        Per la realizzazione di questo sito <br />nessun testimone dello sposo è
+        stato maltrattato
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script id="countdown-logic">
+      AOS.init({ duration: 1000, once: true });
+
+      const today = new Date().getTime();
+      const weddingDate = new Date("Sept 16, 2026 11:00:00").getTime();
+      const dueDate = new Date("Jul 15, 2026 23:59:59").getTime();
+      const btnInviaRisposta = document.querySelector(".btn-invia-risposta");
+      const btnTooLate = document.querySelector(".btn-too-late");
+      const rsvp = document.querySelector("#rsvp");
+      const tooLate = document.querySelector("#too-late");
+      const difference = dueDate - today;
+
+      if (difference < 0) {
+        btnInviaRisposta.style.display = "none";
+        btnTooLate.style.display = "flex";
+        btnTooLate.style.justifyContent = "center";
+      }
+
+      const coglione = () => {
+        rsvp.style.display = "none";
+        tooLate.style.display = "flex";
+      };
+
+      function updateCountdown() {
+        const ora = new Date().getTime();
+        const distanza = weddingDate - ora;
+
+        const d = Math.floor(distanza / (1000 * 60 * 60 * 24));
+        const h = Math.floor(
+          (distanza % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const m = Math.floor((distanza % (1000 * 60 * 60)) / (1000 * 60));
+        const s = Math.floor((distanza % (1000 * 60)) / 1000);
+
+        updateElement("giorni", d);
+        updateElement("ore", h);
+        updateElement("minuti", m);
+        updateElement("secondi", s);
+      }
+
+      function updateElement(id, valore) {
+        const el = document.querySelector(`#${id} .count`);
+        const nuovoValore = valore < 10 ? "0" + valore : valore;
+
+        if (el.innerText !== nuovoValore.toString()) {
+          el.innerText = nuovoValore;
+
+          // Applica l'animazione di scatto
+          el.parentElement.classList.remove("animate-flip");
+          void el.parentElement.offsetWidth; // Trucco per resettare l'animazione
+          el.parentElement.classList.add("animate-flip");
+        }
+      }
+
+      setInterval(updateCountdown, 1000);
+      updateCountdown(); // Esegui subito al caricamento
+    </script>
+
+    <script id="copy-iban">
+      function copyIban() {
+        const ibanText = document.getElementById("iban-text")?.innerText;
+        const btn = document.getElementById("copy-btn");
+
+        // Copia negli appunti
+        navigator.clipboard
+          .writeText(ibanText)
+          .then(() => {
+            const originalText = btn.innerHTML;
+            btn.innerHTML = "✔ Copiato!";
+            btn.style.background = "#ebb866";
+            btn.disabled = true;
+
+            setTimeout(() => {
+              btn.innerHTML = originalText;
+              btn.style.background = "var(--accent)";
+              btn.disabled = false;
+            }, 2000);
+          })
+          .catch((err) => {
+            console.error("Errore nella copia: ", err);
+            alert("Errore durante la copia. Seleziona l'IBAN manualmente.");
+          });
+      }
+    </script>
+
+    <script id="form-google">
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyrMxV3QmzZyCQDCkJSJZqlWCLN9wYtKjrity-0t0OwltafjHTS4V4Kr6QGW3u-6Jbi/exec";
+      const form = document.getElementById("rsvp-form");
+      const btn = document.getElementById("submit-rsvp");
+      const msg = document.getElementById("msg-conferma");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.innerHTML = "Invio in corso...";
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            btn.style.display = "none";
+            form.style.display = "none";
+            msg.style.display = "block";
+          })
+          .catch((error) => {
+            btn.disabled = false;
+            btn.innerHTML = "Errore! Riprova";
+            console.error("Error!", error.message);
+          });
+      });
+
+      let numeroAdulti = 1;
+      let numeroBambini = 0;
+      let numeroRagazzi = 0;
+      const LIMITE_MAX = 8;
+
+      function changeCount(tipo, valore) {
+        // Calcoliamo il totale attuale prima di modificare i valori
+        const totaleAttuale = numeroAdulti + numeroBambini + numeroRagazzi;
+
+        // Se l'utente sta cercando di aumentare (+1) e siamo già al limite, usciamo
+        if (valore > 0 && totaleAttuale >= LIMITE_MAX) {
+          alert(
+            `Il limite massimo è di ${LIMITE_MAX} persone per ogni conferma.`,
+          );
+          return;
+        }
+
+        if (tipo === "adulti") {
+          numeroAdulti = Math.max(1, numeroAdulti + valore); // Minimo 1 adulto
+          document.getElementById("count-adulti").innerText = numeroAdulti;
+          document.getElementById("hidden-adulti").value = numeroAdulti;
+        } else if (tipo === "ragazzi") {
+          numeroRagazzi = Math.max(0, numeroRagazzi + valore); // Minimo 0 ragazzi
+          document.getElementById("count-ragazzi").innerText = numeroRagazzi;
+          document.getElementById("hidden-ragazzi").value = numeroRagazzi;
+        } else {
+          numeroBambini = Math.max(0, numeroBambini + valore); // Minimo 0 bambini
+          document.getElementById("count-bambini").innerText = numeroBambini;
+          document.getElementById("hidden-bambini").value = numeroBambini;
+        }
+
+        aggiornaCampiNomi();
+      }
+
+      function aggiornaCampiNomi() {
+        const container = document.getElementById("nomi-container");
+        container.innerHTML = ""; // Svuota e rigenera
+
+        // Loop per gli Adulti
+        for (let i = 1; i <= numeroAdulti; i++) {
+          creaCampiPersona(
+            container,
+            "Adulto",
+            i,
+            `nome_adulto_${i}`,
+            `Dieta_adulto_${i}`,
+          );
+        }
+
+        // Loop per i Bambini
+        for (let i = 1; i <= numeroBambini; i++) {
+          creaCampiPersona(
+            container,
+            "Bambino",
+            i,
+            `nome_bambino_${i}`,
+            `Dieta_bambino_${i}`,
+          );
+        }
+
+        // Loop per i Ragazzi
+        for (let i = 1; i <= numeroRagazzi; i++) {
+          creaCampiPersona(
+            container,
+            "Ragazzo",
+            i,
+            `nome_ragazzo_${i}`,
+            `Dieta_ragazzo_${i}`,
+          );
+        }
+      }
+
+      function creaCampiPersona(
+        container,
+        labelTipo,
+        index,
+        nameInput,
+        nameDieta,
+      ) {
+        const label = document.createElement("label");
+        const labelDieta = document.createElement("label");
+
+        if (index === 0) {
+          console.log("sono qui");
+          return;
+        }
+
+        label.innerHTML = `<strong>${labelTipo}</strong>`;
+        labelDieta.innerHTML = `<strong>Allergie, intolleranze o eslusioni: </strong>`;
+
+        const input = document.createElement("input");
+        const inputDieta = document.createElement("textarea");
+
+        const stileInput =
+          "width:100%; padding:12px; margin:5px 0 15px; border:1px solid #ddd; border-radius:5px; font-family: 'Montserrat', sans-serif;";
+
+        input.type = "text";
+        input.name = nameInput;
+        input.placeholder = "Nome e Cognome";
+        input.required = true;
+        input.style = stileInput;
+
+        inputDieta.name = nameDieta;
+        inputDieta.placeholder =
+          "Es. Regime alimentare (Vegetariano, Vegano, Pescitariano, .. ), esclusioni, esigenze particolari, alcolici";
+        inputDieta.rows = "3";
+        inputDieta.required = false;
+        inputDieta.style = stileInput;
+
+        container.appendChild(label);
+        container.appendChild(input);
+        container.appendChild(labelDieta);
+        container.appendChild(inputDieta);
+      }
+
+      document.addEventListener("change", () => {
+        const presenza = document.getElementById("presenza")?.value;
+        const container = document.getElementById("nomi-container");
+        const countAdulti = document.getElementById("count-adulti");
+        const nomeAdulto1 = document.getElementById("nome_adulto_1");
+        const counterWrapper = document.querySelector(".people-wrapper");
+
+        if (presenza === "no") {
+          container.style.display = "none";
+          counterWrapper.style.display = "none";
+          nomeAdulto1.required = false;
+          document.getElementById("hidden-adulti").value = 0;
+          creaCampiPersona(container, "", 0, "", "");
+        } else if (presenza === "si") {
+          container.style.display = "flex";
+          counterWrapper.style.display = "flex";
+          nomeAdulto1.required = true;
+          document.getElementById("hidden-adulti").value = 1;
+        }
+      });
+    </script>
+
+    <script id="add-to-calendar">
+      function addToCalendar() {
+        // Configura i dettagli dell'evento
+        const event = {
+          title: "Matrimonio di Federica e Gabriele",
+          location: "Chiesa Parrocchiale di San Giovanni Evangelista, Albiate",
+          description:
+            "Non mancate al nostro grande giorno! Ricevimento a seguire presso Villa Mattioli, Lesmo.",
+          start: "20260916T110000", // Formato: YYYYMMDDTHHMMSS
+          end: "20260916T230000", // Fine evento
+        };
+
+        // Crea il contenuto del file iCalendar (.ics)
+        const icsContent = [
+          "BEGIN:VCALENDAR",
+          "VERSION:2.0",
+          "BEGIN:VEVENT",
+          `DTSTART:${event.start}`,
+          `DTEND:${event.end}`,
+          `SUMMARY:${event.title}`,
+          `DESCRIPTION:${event.description}`,
+          `LOCATION:${event.location}`,
+          "BEGIN:VALARM", // Promemoria 1 giorno prima
+          "TRIGGER:-P1D",
+          "ACTION:DISPLAY",
+          "DESCRIPTION:Promemoria Matrimonio",
+          "END:VALARM",
+          "END:VEVENT",
+          "END:VCALENDAR",
+        ].join("\n");
+
+        // Crea un link temporaneo per scaricare il file
+        const blob = new Blob([icsContent], {
+          type: "text/calendar;charset=utf-8",
+        });
+        const link = document.createElement("a");
+        link.href = window.URL.createObjectURL(blob);
+        link.setAttribute("download", "matrimonio-federica-gabriele.ics");
+        document.body.appendChild(link);
+
+        // Simula il click e rimuovi il link
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+
+    <script id="dropdown">
+      const dropdownBtn = document.querySelector(".dropdown");
+      const dropdownDetails = document.querySelector(".dropdown-section-down");
+      const arrowUp = document.querySelector(".arrow-up");
+      const arrowDown = document.querySelector(".arrow-down");
+
+      const toggleDorpdown = () => {
+        if (dropdownDetails.classList.contains("hide")) {
+          dropdownDetails.classList.remove("hide");
+          dropdownDetails.classList.add("show");
+          arrowUp.classList.remove("hide");
+          arrowUp.classList.add("show");
+          arrowDown.classList.remove("show");
+          arrowDown.classList.add("hide");
+        } else if (dropdownDetails.classList.contains("show")) {
+          dropdownDetails.classList.remove("show");
+          dropdownDetails.classList.add("hide");
+          arrowUp.classList.remove("show");
+          arrowUp.classList.add("hide");
+          arrowDown.classList.remove("hide");
+          arrowDown.classList.add("show");
+        }
+      };
+    </script>
+
+    <script id="video">
+      document.addEventListener("DOMContentLoaded", function () {
+        const video = document.getElementById("bg-video");
+        const card = document.querySelector(".dress-card");
+
+        if (video) {
+          video.onended = function () {
+            // Quando il video finisce, aggiungiamo la classe per l'animazione
+            card.classList.add("show-card");
+
+            // il video rimane sull'ultimo frame invece di sparire
+            video.pause();
+          };
+        }
+      });
+    </script>
+  </body>
+</html>
