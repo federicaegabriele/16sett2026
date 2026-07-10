@@ -563,18 +563,18 @@
 
       const today = new Date().getTime();
       const weddingDate = new Date("Sept 16, 2026 11:00:00").getTime();
-      const dueDate = new Date("Jul 15, 2026 23:59:59").getTime();
+      const dueDate = new Date("Nov 15, 2026 23:59:59").getTime();
       const btnInviaRisposta = document.querySelector(".btn-invia-risposta");
       const btnTooLate = document.querySelector(".btn-too-late");
       const rsvp = document.querySelector("#rsvp");
       const tooLate = document.querySelector("#too-late");
       const difference = dueDate - today;
 
-      if (difference < 0) {
-        btnInviaRisposta.style.display = "none";
-        btnTooLate.style.display = "flex";
-        btnTooLate.style.justifyContent = "center";
-      }
+      // if (difference < 0) {
+      //   btnInviaRisposta.style.display = "none";
+      //   btnTooLate.style.display = "flex";
+      //   btnTooLate.style.justifyContent = "center";
+      // }
 
       const coglione = () => {
         rsvp.style.display = "none";
