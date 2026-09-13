@@ -159,6 +159,7 @@ body section {
 body section .location-wrapper,
 body section .program-wrapper,
 body section .gallery-wrapper,
+body section .song-wrapper,
 body section .dress-code-wrapper,
 body section .regalo-wrapper,
 body section .testimoni-wrapper,
@@ -547,6 +548,13 @@ body #gallery .regalo-wrapper .payment-card {
 body #gallery .regalo-wrapper .payment-card a {
   margin: auto;
 }
+body #song .song-wrapper h2 {
+  font-size: 60px;
+}
+body #song .song-wrapper p {
+  font-size: 24px;
+  font-weight: 700;
+}
 body #testimoni {
   background-color: var(--accent);
 }
@@ -768,6 +776,7 @@ body footer .img-logo {
   body section .location-wrapper,
   body section .program-wrapper,
   body section .gallery-wrapper,
+  body section .song-wrapper,
   body section .dress-code-wrapper,
   body section .regalo-wrapper,
   body section .testimoni-wrapper,

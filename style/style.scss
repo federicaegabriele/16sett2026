@@ -170,6 +170,7 @@ body {
     .location-wrapper,
     .program-wrapper,
     .gallery-wrapper,
+    .song-wrapper,
     .dress-code-wrapper,
     .regalo-wrapper,
     .testimoni-wrapper,
@@ -620,6 +621,19 @@ body {
     }
   }
 
+  #song {
+    .song-wrapper {
+      h2 {
+        font-size: 60px;
+      }
+
+      p {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+  }
+
   #testimoni {
     background-color: var(--accent);
 
@@ -868,6 +882,7 @@ body {
       .location-wrapper,
       .program-wrapper,
       .gallery-wrapper,
+      .song-wrapper,
       .dress-code-wrapper,
       .regalo-wrapper,
       .testimoni-wrapper,
